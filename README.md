@@ -1,11 +1,14 @@
 # Homebrew-Tap für Flimmer
 
 [Flimmer](https://muehlbronner.de/projekte/flimmer/) ist ein werbefreier YouTube-Client mit SponsorBlock und DeArrow
-für macOS, Windows, Linux und Android. Dieser Tap installiert die Mac-Fassung (Apple-Prozessor) mit Homebrew:
+für macOS, Windows, Linux, Android und Google TV, als Test auch iPhone und iPad. Dieser Tap installiert die Mac-Fassung (Apple-Prozessor) mit Homebrew:
 
 ```bash
 brew install --cask mhd6271/flimmer/flimmer
 ```
+
+Homebrew legt Flimmer nach `/Applications`. Liegt schon eine von Hand installierte Kopie in `~/Applications`, diese
+vorher löschen, sonst gibt es zwei „Flimmer“. Abos und Einstellungen bleiben dabei erhalten.
 
 Flimmer ist nicht bei Apple notarisiert. Beim ersten Start meldet macOS einen nicht verifizierten Entwickler:
 **Systemeinstellungen → Datenschutz & Sicherheit → „Dennoch öffnen“**. Das ist nur einmal nötig.
