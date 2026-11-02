@@ -1,6 +1,6 @@
 cask "flimmer" do
-  version "0.5.37"
-  sha256 "0e5ce7ef7f06664e6be352c111b83e6ad69ab7b2aa1384107659084fedcb1439"
+  version "0.5.38"
+  sha256 "2dd89dd5e0de797100950a22ac3eeb29e071983b28c634084b6b6d0cb9d87227"
 
   url "https://github.com/mhd6271/flimmer-releases/releases/download/v#{version}/Flimmer-#{version}-macOS-arm64.zip"
   name "Flimmer"
