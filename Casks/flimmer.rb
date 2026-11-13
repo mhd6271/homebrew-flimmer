@@ -3,9 +3,9 @@ cask "flimmer" do
   sha256 "2dd89dd5e0de797100950a22ac3eeb29e071983b28c634084b6b6d0cb9d87227"
 
   url "https://github.com/mhd6271/flimmer-releases/releases/download/v#{version}/Flimmer-#{version}-macOS-arm64.zip"
-  name "Flimmer"
+  name "MM Alternative Videoplayer"
   desc "Werbefreier YouTube-Client mit SponsorBlock und DeArrow"
-  homepage "https://muehlbronner.de/projekte/flimmer/"
+  homepage "https://github.com/mhd6271/flimmer-releases"
 
   livecheck do
     url :url
@@ -24,8 +24,9 @@ cask "flimmer" do
   ]
 
   caveats <<~EOS
-    Flimmer ist nicht bei Apple notarisiert. Beim ersten Start meldet macOS einen
-    nicht verifizierten Entwickler: Systemeinstellungen → Datenschutz & Sicherheit →
-    „Dennoch öffnen“. Das ist nur einmal nötig; Updates holt Flimmer danach selbst.
+    MM Alternative Videoplayer ist nicht bei Apple notarisiert. Beim ersten Start
+    meldet macOS einen nicht verifizierten Entwickler: Systemeinstellungen →
+    Datenschutz & Sicherheit → „Dennoch öffnen“. Das ist nur einmal nötig; Updates
+    holt die App danach selbst.
   EOS
 end
