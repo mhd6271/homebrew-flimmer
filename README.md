@@ -9,7 +9,7 @@ brew install --cask mhd6271/flimmer/flimmer
 ```
 
 Der Befehl und der Dateiname bleiben beim alten Namen: Homebrew legt die App als `Flimmer.app` nach `/Applications`,
-im Dock und im Menü heißt sie ab der Version nach 0.5.38 „MM Alternative Videoplayer“. Liegt schon eine von Hand installierte Kopie in
+im Dock und im Menü heißt sie seit 0.5.39 „MM Alternative Videoplayer“. Liegt schon eine von Hand installierte Kopie in
 `~/Applications`, diese vorher löschen, sonst gibt es die App zweimal. Abos und Einstellungen bleiben dabei erhalten.
 
 Die App ist nicht bei Apple notarisiert. Beim ersten Start meldet macOS einen nicht verifizierten Entwickler:
