@@ -1,6 +1,6 @@
 cask "flimmer" do
-  version "0.5.43"
-  sha256 "c62dacf9c4a5034252504b9f2b43075a5bc65b514a241fbf8c965d76b5c16185"
+  version "0.5.44"
+  sha256 "d4ffb9abc8b495e5480e1d7c44d22dfe0b883b54628e071a4e28c62dc1d9af09"
 
   url "https://github.com/mhd6271/flimmer-releases/releases/download/v#{version}/Flimmer-#{version}-macOS-arm64.zip"
   name "MM Alternative Videoplayer"
